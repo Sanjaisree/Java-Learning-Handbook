@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Arrays &amp; Multi-Dimensional logics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Control Flow &amp; Algorithmic Logic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The JVM, Primitives &amp; Wrappers" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
