@@ -1,3 +1,5 @@
+package arrays.multidimentional;
+
 public class VarArgs {
   
     static void num(int... a)

@@ -1,4 +1,6 @@
-public class memory { public static void main(String[] args) {
+package jvm.primitive.logics;
+
+public class Memory { public static void main(String[] args) {
 
     String s1 = "SANJAI";
     String s2 = "SANJAI";

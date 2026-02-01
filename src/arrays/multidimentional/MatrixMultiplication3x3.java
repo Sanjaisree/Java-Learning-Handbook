@@ -1,3 +1,5 @@
+package arrays.multidimentional;
+
 public class MatrixMultiplication3x3 {
 
     static int[][] multiply(int[][] A, int[][] B) {

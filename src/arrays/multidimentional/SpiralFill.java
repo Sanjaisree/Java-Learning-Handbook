@@ -1,5 +1,7 @@
+package arrays.multidimentional;
+
 import java.util.Scanner;
-public class SpiralFillNxN {
+public class SpiralFill {
     
 
     public static void main(String[] args) {

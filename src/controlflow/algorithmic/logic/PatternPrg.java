@@ -1,3 +1,5 @@
+package controlflow.algorithmic.logic;
+
 import java.util.Scanner;
 
 public class PatternPrg {
