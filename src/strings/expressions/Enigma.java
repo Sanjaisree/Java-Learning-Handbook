@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class Enigma {
         static String encrypt(String message, int key) {
-            String result = "";
+            StringBuilder result = new StringBuilder();
             for (int i = 0; i < message.length(); i++) {
                 char ch = message.charAt(i);
                 char encryptedChar = (char) (ch ^ key);
-                result = result + encryptedChar;
+                result.append(encryptedChar);
             }
-            return result;
+            return result.toString();
         }
         static String decrypt(String cipher, int key) {
-            String result = "";
+            StringBuilder result = new StringBuilder();
             for (int i = 0; i < cipher.length(); i++) {
                 char ch = cipher.charAt(i);
                 char decryptedChar = (char) (ch ^ key);
-                result = result + decryptedChar;
+                result.append(decryptedChar);
             }
-            return result;
+            return result.toString();
         }
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
