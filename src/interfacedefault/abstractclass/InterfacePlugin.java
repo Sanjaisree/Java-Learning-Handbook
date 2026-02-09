@@ -8,7 +8,8 @@ class CoreSystem {
     private Plugin[] array;  //instance
 
     CoreSystem(Plugin[] plugins) {   //constructorr
-    this.array = plugins;
+
+        this.array = plugins;
     }
 
     void run() {
