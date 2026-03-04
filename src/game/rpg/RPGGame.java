@@ -91,7 +91,7 @@ class Rogue extends Character {
 class Arena {
 
     public static void battle(Character p1, Character p2) {
-        System.out.println("\n⚔ Battle Start: " + p1.getName() + " vs " + p2.getName());
+        System.out.println("\n Battle Start: " + p1.getName() + " vs " + p2.getName());
 
         int round = 1;
 

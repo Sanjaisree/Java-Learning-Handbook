@@ -21,18 +21,16 @@ public class EmiCalculatorWithTabledStructure {
         double TotalAmount = simpleintrest + principle;
 
         double emi = TotalAmount / (years * 12);
-        for (int i = 0; i < years; i++) {
-            for (int j = 0; j < 12; j++) {
-                table[i][j] = emi;
-            }
-        }
-        for (int i = 0; i < years; i++) {
-            System.out.printf("Year %d: ", i + 1);
-            for (int j = 0; j < 12; j++) {
-                System.out.printf("M%d-%.2f ", j + 1, table[i][j]);
-            }
-            System.out.println();
-        }
+         for(int i=table.length;i<0; i--){
+             for(int j=0;j<12;j++){
+                 table[i][j] = emi;
+             }
+         }
+         for(int i=0;i<table.length;i++){
+             for(int j=0; j<12; j++){
+                 System.out.print(table[i][j]+" ");
+             }
+         }
     }
 }
 

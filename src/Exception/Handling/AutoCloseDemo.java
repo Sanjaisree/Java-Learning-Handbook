@@ -25,7 +25,7 @@ public class AutoCloseDemo {
             r.doWork();
 
             // Force an exception
-            int x = 10 / 0;
+            int x = 10 /0;
 
         } catch (Exception e) {
             System.out.println("Exception caught: " + e);

@@ -2,6 +2,9 @@ package Streams.Lambdas;
 
 import java.util.*;
 import java.util.stream.*;
+interface Num{
+    int sum(int a, int b);
+}
 
 public class StreamStatistics{
 
@@ -24,5 +27,10 @@ public class StreamStatistics{
         System.out.println("Min     : " + stats.getMin());
         System.out.println("Max     : " + stats.getMax());
         System.out.println("Average : " + stats.getAverage());
+
+        Num adding =(a,b)-> a+b;
+        int output =adding.sum(5,2);
+        System.out.println("output: " + output);
+
     }
 }

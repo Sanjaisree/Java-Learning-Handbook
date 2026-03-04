@@ -72,8 +72,8 @@ public class BoundedTypeParameters {
         stack.push(20);
         stack.push(30);
 
-        System.out.println(stack.pop());   // 30
-        System.out.println(stack.peek());  // 20
-        System.out.println(stack.size());  // 2
+        System.out.println(stack.pop());
+        System.out.println(stack.peek());
+        System.out.println(stack.size());
     }
 }
